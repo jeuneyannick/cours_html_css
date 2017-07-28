@@ -12,7 +12,7 @@
 <body>
     <header>
         <div id="logo">
-            <img src="img/logo.png" alt="logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
         </div>
         <div id="slogan">
             <h1>Mon premier site en HTML/CSS</h1>
@@ -24,7 +24,17 @@
     </header>
 
     <nav>
-
+        <a href="index.html">Structure</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteurs.html">Selecteurs</a>
+        <a href="images.html">Image</a>
+        <a href="Position.html">Position</a>
+        <a href="tableau.html">Tableau</a>
+        <a href="listes.html">Liste</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="ancres.html" class="couleur">Ancres</a>
+        <a href="Multimedia.html">Multimedia</a>
+        <a href="Aninmations.html">Animations</a>
     </nav>
 
     <main>
@@ -37,7 +47,12 @@
          <section id="lien">
              <h3>Les liens</h3>
              <a href="https://codepen.io/" title="se rendre sur le site de CodePen">Codepen</a> is a social development environment for front-end designers and developers.<br>
-             <a href="http://www.google.fr" target="_blank">Google</a> le  moteur de recherche.<br>
+             <a href="http://www.google.fr">Google</a> le  moteur de recherche.<br>
+             <a href="folder/cv.doc">Télécharger mon CV</a><br>
+             <a href="folder/cv.pdf" download >Voir mon CV</a><br>
+             <a href="#" onclick="window.print()">Imprimer la page</a><br>
+             <a href="http://www.facebook.fr" target="_blank"><img src="img/facebook.ico" alt="image"></a><br>
+             Cliquez <a href="index.html">ici</a> pour vous rendre sur la page structure.
              liens<br>
              liens<br>
              liens<br>
@@ -63,7 +78,15 @@
              liens<br>
          </section>
          <section id="menu">
-             <h3>Menu</h3>
+             <h3>Les menus</h3>
+             <nav>
+                 <ul>
+                     <li><a href="#">Accueil</a></li>
+                     <li><a href="#">Parcours</a></li>
+                     <li><a href="#">Réalisations</a></li>
+                     <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
                liens<br>
                liens<br>
                liens<br>
@@ -125,7 +148,7 @@
            <a href="#logo"><button type="button"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button></a>
 
 
-            </section>
+
 
 
     </main>

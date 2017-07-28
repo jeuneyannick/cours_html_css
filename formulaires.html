@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr"><!-- signifier la langue dans laquelle est écrite la page !-->
+<head><!-- toutes les informations relatives au document, le nom de la page, le nom de fichier à notre fichier, la description de notre page, lien vers des google font, liens vers javascript,insertion des fabicons !-->
+    <meta charset="UTF-8">
+    <!-- pour l'encodage, gérer les accents etc !-->
+    <meta name="description" content="Mes formulaires en HTML/CSS"> <!-- Meta= donnée; valeur= description ; éléments récupérés par google !-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mon texte</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Link c'est une information !-->
+    <link href="https://fonts.googleapis.com/css?family=Lato&Lemonada&Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body> <!-- Corps du document !-->
+    <header>
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div id="slogan">
+                <h1>Mon premier site en HTML/CSS</h1>
+            </div>
+            <div id="reseauSociaux">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+
+        <!-- Zone du haut, bannière, logo, slogan !-->
+
+    </header>
+
+    <nav>
+
+    </nav>
+
+    <main>
+        <h2>Formulaires</h2>
+        <section class="formulaire">
+            <form method="post" action="url de destination" enctype="multipart/form-data">
+                <label for="pseudo">Pseudo *</label>
+                <input type="text" id="pseudo" name="pseudo" required><br>
+
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="votre prénom"><br>
+
+                <label for="mdp">Mot de passe</label>
+                <input type="password" id="mdp" name="mdp"><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="cv">CV</label>
+                <input type="file" id="cv" name="cv"><br>
+                <p>Quels sont vos fruits préférés</p>
+                <label for="orange">Orange</label>
+                <input type="checkbox" id="orange" name="Orange" value="orange" checked>
+                <label for="fraise">Fraise</label>
+                <input type="checkbox" id="fraise" name="fraise" value="fraise">
+                <label for="poire">Poire</label>
+                <input type="checkbox" id="poire" name="poire" value="poire">
+
+                <label for="cp">Code postal</label>
+                <input type="text" id="cp" name="cp" maxlength="5" pattern="{0-9}{5}" title="5 chiffres entre 0 et 9"><br>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" cols="25"></textarea>
+
+                <input type="submit" name="envoyer" value="Envoyer">
+                <input type="reset" name="annuler" value="annuler">
+            </form>
+
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
