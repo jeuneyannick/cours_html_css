@@ -603,6 +603,7 @@ li:hover:not(.fa){
 	color:darksalmon;
 	box-shadow:none;
 }
+
 button:hover{
 	color:#33cccc;
 	transition:1s;
