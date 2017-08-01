@@ -742,7 +742,24 @@ label[for="change"],label[for="fraise"],label[for="poire"]{
 /***********************************************FIN PAGE FORMULAIRE********************************/
 /**********************************************DEBUT MULTIMEDIA************************************/
 
-
+@media screen and (max-width:768px){
+     header{
+		 width:100%;
+	 }
+	 nav{
+		 width:100%;
+     }
+	main{
+		width: 100%
+	}
+	video{
+		width:50vh;
+	}
+	p{
+		height:50%;
+		margin:0 auto;
+	}
+}
 
 .videoFond{
 	padding-left:0;
@@ -961,4 +978,4 @@ iframe[allowfullscreen]{
 
 
 
-/*******************************************************************fin page animation********************************************/
+/****************fin page animation********************************************/
