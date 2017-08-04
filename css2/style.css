@@ -47,64 +47,128 @@ table {
 }
 
 body{
-    background:midnightblue;
+    background-image:url(../img/wild_oliva.png);
     height:500px;
     margin:0 auto;
 }
 header{
-    border:2px solid lightsteelblue;
+    border:2px solid white;
     margin:0 auto;
+    color:dodgerblue;
     padding:0;
-    background:azure;
+    background:aliceblue;
     text-align:center;
+    width:80%;
 
 }
 nav{
     background:aliceblue;
     padding:20px;
     text-align:center;
+    width:80%;
+    margin:0 auto;
 }
 main{
     border:2px solid lightsteelblue;
-    background:lightcyan;
+    background-image:url(../img/ordinateur.jpg);
+    background-size:cover;
     height:600px;
     margin:0 auto;
     width:80%;
 }
-section{
-    margin:0 auto;
-    background-image:url(../img/ordinateur.jpg);
-    background-size:cover;
-    width:80%;
-    height:100%;
-    box-sizing:border-box;
-}
-aside{
-    background:lightseagreen;
-    width:20%;
-    float:left;
-    height:100%;
-}
 article{
     background:transparent;
     border:2px solid white;
+    font-family: 'Open Sans', serif;
+    text-align:center;
     float:left;
-    width:50%;
+    width:80%;
     margin:0 auto;
-    height:20%
 }
 footer{
 
-    background:azure;
+    background:aliceblue;
     height:20%;
+    width:80%;
+    margin:0 auto;
+}
+h3{
+   font-family: 'Open Sans', serif;
+   text-align:center;
+
 }
 /***************************************************MenuCV***********/
-
+header{
+    text-align:center;
+    font-family: 'Open Sans', serif;
+}
+header .haut p {
+    border-radius:8px;
+    border:2px;
+    background:transparent;
+}
+header .haut:hover{
+    background:CadetBlue;
+    border-radius:8px;
+    transition:2s;
+    transform:scale(1.1);
+}
+.logo .reseaux{
+    text-align:center;
+}
 nav a{
     text-decoration:none;
-    border:2px solid white;
-    background:azure;
+    border:2px;
+    background:aliceblue;
     border-radius:8px;
+    font-family: 'Open Sans', sans-serif;
+    color:dodgerblue;
     padding:4px;
     margin:4px;
+}
+nav a:hover{
+    background:CadetBlue;
+    transition:2s;
+    transform:scale(1);
+    }
+aside{
+    background-image:url(../img/maphoto.jpg);
+    background-size:cover;
+    height:50%;
+    width:50%;
+}
+.premier .perso{
+    font-family: 'Open Sans', serif;
+}
+/*******************************************listes************************/
+.presentation1,.presentation3{
+    background:#ACBDC5;
+    font-family: 'Open Sans', sans-serif;
+    border:3px solid #314A52;
+    padding:10px;
+    box-sizing:border-box;
+    border-radius:12px;
+    text-align:center;
+    float:left;
+    margin:10px;
+    width:50%;
+}
+.presentation2{
+    background:#ACBDC5;
+    font-family: 'Open Sans', sans-serif;
+    border:3px solid #314A52;
+    padding:10px;
+    box-sizing:border-box;
+    border-radius:12px;
+    text-align:center;
+    margin:10px;
+    float:right;
+    width:50%;
+}
+.presentation1:hover,.presentation2:hover,.presentation3:hover{
+    transform:scale(1.3);
+    transition:3s;
+    overflow:hidden;
+    color:white;
+    background:#626F92;
 }
